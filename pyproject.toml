@@ -33,7 +33,7 @@ keywords = [
 
 [tool.poetry.dependencies]
 python = ">=3.8.1,<4"
-rndi-cache-interface = { git = "https://github.com/othercodes/python-cache-interface.git", branch = "master" }
+rndi-cache-interface = { git = "https://github.com/IM-Cloud-Spain-Connectors/python-cache-interface.git", tag = "v1.0.0" }
 redis = "^4.5.1"
 
 [tool.poetry.dev-dependencies]
