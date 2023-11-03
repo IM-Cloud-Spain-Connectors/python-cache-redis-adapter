@@ -11,7 +11,7 @@ readme = "README.md"
 packages = [
     { include = "rndi" }
 ]
-repository = ""
+
 classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Operating System :: OS Independent",
@@ -33,7 +33,7 @@ keywords = [
 
 [tool.poetry.dependencies]
 python = ">=3.8.1,<4"
-rndi-cache-interface = { git = "https://github.com/IM-Cloud-Spain-Connectors/python-cache-interface.git", tag = "v1.0.0" }
+rndi-cache-interface = { git = "https://github.com/IM-Cloud-Spain-Connectors/python-cache-interface.git", branch = "master" }
 redis = "^4.5.1"
 
 [tool.poetry.dev-dependencies]
